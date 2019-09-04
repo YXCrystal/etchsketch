@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+.primary {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 4rem; }
+
+.grid {
+  background-color: white;
+  width: 40rem;
+  height: 40rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border: 4rem solid #e34040; }
+  .grid__box {
+    float: left; }
+
+.buttons {
+  text-align: center;
+  margin-top: 5rem; }
+  .buttons__btn {
+    display: inline-block;
+    transition: all .2s; }
+    .buttons__btn:link, .buttons__btn:visited {
+      text-decoration: none;
+      background-color: #e34040;
+      color: black;
+      font-size: 2rem;
+      padding: 1.5rem 2rem;
+      border-radius: 1rem; }
+    .buttons__btn:not(:last-child) {
+      margin-right: 5rem; }
+    .buttons__btn:hover {
+      color: white;
+      transform: translateY(-5px);
+      box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5); }
+    .buttons__btn:active {
+      color: white;
+      transform: translateY(0);
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8); }
